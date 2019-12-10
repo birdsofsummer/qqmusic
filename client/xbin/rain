@@ -1,0 +1,19 @@
+#music_path=/data/txt/morning.txt
+
+remote_url="https://ttt-1252957949.cos.ap-hongkong.myqcloud.com/music/jeff1.txt"
+music_path=/tmp/log/jeff.txt
+
+download(){
+    curl $remote_url -o $music_path
+}
+
+rand(){
+    l=`wc -l $music_path`
+    t=`cat  $music_path|awk '{srand();i=int(rand()*850) ;if(NR==i){print $0}}'`
+    /xbin/morning "$t"
+    echo `date` >>/tmp/log/ttt
+    #echo $t >>/tmp/log/ttt
+}
+
+[ -e /tmp/log/jeff.json ] && echo "ok" || download
+rand

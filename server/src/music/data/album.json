@@ -1,0 +1,87 @@
+{
+  "code": 0,
+  "data": {
+    "aDate": "2018-09-12",
+    "albumTips": "",
+    "color": 2305342,
+    "company": "北京有此山文化传媒有限公司",
+    "company_new": {
+      "brief": "",
+      "headPic": "",
+      "id": 96238,
+      "is_show": 1,
+      "name": "北京有此山文化传媒有限公司"
+    },
+    "cur_song_num": 1,
+    "desc": "自然固有潮汐\n热烈的、兴奋的，自然是欢欣鼓舞\n质疑的、哀怨的，也得要待到从头\n溯洄从之，道阻且长。也如流淌，也如生活。\n",
+    "genre": "Pop 流行",
+    "id": 4605253,
+    "lan": "国语",
+    "list": [
+      {
+        "albumdesc": "",
+        "albumid": 4605253,
+        "albummid": "000QXjVc1r7NQO",
+        "albumname": "从头",
+        "alertid": 2,
+        "belongCD": 1,
+        "cdIdx": 0,
+        "interval": 208,
+        "isonly": 0,
+        "label": "0",
+        "msgid": 14,
+        "pay": {
+          "payalbum": 0,
+          "payalbumprice": 0,
+          "paydownload": 1,
+          "payinfo": 1,
+          "payplay": 0,
+          "paytrackmouth": 1,
+          "paytrackprice": 200,
+          "timefree": 0
+        },
+        "preview": {
+          "trybegin": 58387,
+          "tryend": 89799,
+          "trysize": 0
+        },
+        "rate": 23,
+        "singer": [
+          {
+            "id": 940748,
+            "mid": "004WgCsE3KBddt",
+            "name": "陈粒"
+          }
+        ],
+        "size128": 3335084,
+        "size320": 8337429,
+        "size5_1": 0,
+        "sizeape": 0,
+        "sizeflac": 43902080,
+        "sizeogg": 4461478,
+        "songid": 217139396,
+        "songmid": "001hnH5h3NvqKx",
+        "songname": "从头",
+        "songorig": "从头",
+        "songtype": 0,
+        "strMediaMid": "000lOhOr0ektcd",
+        "stream": 13,
+        "switch": 17413891,
+        "type": 0,
+        "vid": ""
+      }
+    ],
+    "mid": "000QXjVc1r7NQO",
+    "name": "从头",
+    "radio_anchor": 0,
+    "singerid": 940748,
+    "singermblog": null,
+    "singermid": "004WgCsE3KBddt",
+    "singername": "陈粒",
+    "song_begin": 0,
+    "total": 1,
+    "total_song_num": 1
+  },
+  "message": "succ",
+  "subcode": 0
+}

@@ -1,0 +1,71 @@
+# https://blog.csdn.net/qq_27935885/article/details/81131250
+
+WPABIN=/usr/sbin/wpa_supplicant
+WIRELESSNAME=wlan0 
+CONFILE=/data/wifi/wpa_supplicant.conf
+
+kills(){
+	pidlist=$*
+	if [ "$pidlist" = "" ]
+	then
+		echo "nothing"
+	else
+		for pid in $pidlist
+		    do
+			kill -9 $pid
+			echo "$pid"
+		    done 
+	fi
+}
+
+
+stop(){
+	flag=0
+	pidlist=`ps -ef |grep "wpa_supplicant" |grep -v "grep"|awk '{print $1}'`
+	udhcpc_pid=`ps -ef |grep "udhcpc" |grep "$WIRELESSNAME" |grep -v "grep"|awk '{print $1}'`
+        kills ${pidlist}
+        kills ${udhcpc_pid}
+	ifdown wlan0
+	flag=1
+}
+
+
+start(){
+	ifup wlan0
+	/usr/sbin/wpa_supplicant -Dnl80211 -iwlan0 -c/data/wifi/wpa_supplicant.conf -s
+	if [ $? -eq 0 ];then
+	    echo "ok"
+	else
+	    echo "fail"
+	    sleep 3
+	    #start
+            #exit 1
+	fi
+	/sbin/udhcpc -f -S -s /bin/simple_dhcp.sh -R -t 0 -i wlan0 -x hostname:MiAiSoundbox
+	#udhcpc -b -i wlan0
+	#udhcpc -b -i wlan0 -p /var/run/udhcpc.wlan0.pid -R
+}
+
+
+restart(){
+   stop
+   start
+}
+
+check(){
+        #14.215.177.38
+	a=`nslookup www.baidu.com |grep Address`
+	echo $a >> /tmp/log/baidu
+	if [ "$a" != "" ]
+	then
+           echo "ok"
+	   exit 1
+	else
+           echo "reconnect wifi"
+	   restart
+	   exit 0
+	fi
+}
+
+
+check

@@ -1,0 +1,16 @@
+h=`date +%H`
+v=100
+echo $h
+
+if [[ $h -lt 12 ]] ; then
+      # let t=08-20
+      # let t1=50+$t*15
+      v=180
+elif [[ $h -ge 21 ]] ; then
+        let z=$h-20
+        let z1=50-15*$z
+	v=$z1
+fi
+
+echo $v
+#m volume_set $v

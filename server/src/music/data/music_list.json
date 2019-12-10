@@ -1,0 +1,313 @@
+{
+  "code": 0,
+  "subcode": 0,
+  "accessed_plaza_cache": 1,
+  "accessed_favbase": 1,
+  "login": "on**",
+  "cdnum": 1,
+  "cdlist": [
+    {
+      "disstid": "3719969047",
+      "dirid": 4,
+      "dir_show": 1,
+      "coveradurl": "",
+      "dissid": 3719969,
+      "login": "on**",
+      "uin": "7wEPowcl7w4l",
+      "encrypt_uin": "7wEPowcl7w4l",
+      "owndir": 0,
+      "dissname": "月球",
+      "logo": "http://p.qpic.cn/music_cover/M9yfGQDpkIiacD2YAY0EbFPHwIO4qRfttIh2C6Zb9ciaIdyGibo1J1DkA/600?n=1",
+      "pic_mid": "",
+      "album_pic_mid": "",
+      "pic_dpi": 500,
+      "isAd": 0,
+      "desc": "",
+      "ctime": 1518242240,
+      "mtime": 0,
+      "headurl": "http://thirdqq.qlogo.cn/g?b=sdk&k=4icib4Oc6f9AzUAb22VLP2KQ&s=140&t=1555665030",
+      "ifpicurl": "",
+      "nick": "沐昜灬",
+      "nickname": "沐昜灬",
+      "type": 0,
+      "singerid": 0,
+      "singermid": "",
+      "isvip": 0,
+      "isdj": 0,
+      "tags": [],
+      "songnum": 3,
+      "songids": "1234505,105937539,444607",
+      "songtypes": "13,13,13",
+      "disstype": 0,
+      "dir_pic_url2": "",
+      "song_update_time": 0,
+      "song_update_num": 0,
+      "total_song_num": 3,
+      "song_begin": 0,
+      "cur_song_num": 3,
+      "songlist": [
+        {
+          "id": 1234505,
+          "type": 0,
+          "songtype": 13,
+          "mid": "001PpG3B0TR4UH",
+          "name": "月球上的人",
+          "title": "月球上的人",
+          "subtitle": "",
+          "interval": 222,
+          "isonly": 1,
+          "language": 1,
+          "genre": 1,
+          "index_cd": 1,
+          "index_album": 19,
+          "status": 0,
+          "fnote": 4009,
+          "url": "http://stream6.qqmusic.qq.com/13234505.wma",
+          "time_public": "2009-01-01",
+          "singer": [
+            {
+              "id": 143,
+              "mid": "003Nz2So3XXYek",
+              "name": "陈奕迅",
+              "title": "陈奕迅"
+            }
+          ],
+          "album": {
+            "id": 35776,
+            "mid": "000gpcQK4XrHUF",
+            "name": "Solidays",
+            "title": "Solidays",
+            "subtitle": ""
+          },
+          "mv": {
+            "id": 173503,
+            "vid": "q0011p39o55"
+          },
+          "ksong": {
+            "id": 0,
+            "mid": "001zoLqq2RrpFM"
+          },
+          "file": {
+            "media_mid": "001e1keg3r8q4Q",
+            "size_try": 0,
+            "b_30s": 0,
+            "e_30s": 0,
+            "try_begin": 76433,
+            "try_end": 105664,
+            "size_24aac": 690733,
+            "size_48aac": 1348591,
+            "size_96aac": 2712998,
+            "size_192aac": 5366510,
+            "size_192ogg": 4565663,
+            "size_128mp3": 3563310,
+            "size_320mp3": 8907963,
+            "size_aac": 1348591,
+            "size_ogg": 4565663,
+            "size_128": 3563310,
+            "size_320": 8907963,
+            "size_ape": 0,
+            "size_flac": 19598281,
+            "size_dts": 0
+          },
+          "volume": {
+            "gain": 0,
+            "peak": 0,
+            "lra": 0
+          },
+          "pay": {
+            "pay_month": 1,
+            "price_track": 200,
+            "price_album": 0,
+            "pay_play": 0,
+            "pay_down": 1,
+            "pay_status": 0,
+            "time_free": 0
+          },
+          "action": {
+            "switch": 17413891,
+            "msgid": 14,
+            "msgpay": 6,
+            "alert": 21,
+            "icons": 147324
+          }
+        },
+        {
+          "id": 105937539,
+          "type": 0,
+          "songtype": 13,
+          "mid": "0020rxSH2gkIjz",
+          "name": "月球下的人",
+          "title": "月球下的人",
+          "subtitle": "",
+          "interval": 281,
+          "isonly": 1,
+          "language": 1,
+          "genre": 1,
+          "index_cd": 0,
+          "index_album": 5,
+          "status": 0,
+          "fnote": 4009,
+          "url": "http://stream3.qqmusic.qq.com/117937539.wma",
+          "time_public": "2016-04-18",
+          "singer": [
+            {
+              "id": 3860,
+              "mid": "001qDxJb18rQ8c",
+              "name": "李幸倪",
+              "title": "李幸倪"
+            }
+          ],
+          "album": {
+            "id": 1329523,
+            "mid": "000tbCh12RdPbg",
+            "name": "beGin",
+            "title": "beGin",
+            "subtitle": ""
+          },
+          "mv": {
+            "id": 673449,
+            "vid": "j0019w7ruug"
+          },
+          "ksong": {
+            "id": 0,
+            "mid": "001RQrqE1Nkvy2"
+          },
+          "file": {
+            "media_mid": "002rfaev0A3j8J",
+            "size_try": 0,
+            "b_30s": 0,
+            "e_30s": 0,
+            "try_begin": 73925,
+            "try_end": 116106,
+            "size_24aac": 874553,
+            "size_48aac": 1716677,
+            "size_96aac": 3434636,
+            "size_192aac": 6801744,
+            "size_192ogg": 6135549,
+            "size_128mp3": 4503294,
+            "size_320mp3": 11257932,
+            "size_aac": 1716677,
+            "size_ogg": 6135549,
+            "size_128": 4503294,
+            "size_320": 11257932,
+            "size_ape": 0,
+            "size_flac": 29262817,
+            "size_dts": 0
+          },
+          "volume": {
+            "gain": 0,
+            "peak": 0,
+            "lra": 0
+          },
+          "pay": {
+            "pay_month": 1,
+            "price_track": 200,
+            "price_album": 0,
+            "pay_play": 0,
+            "pay_down": 1,
+            "pay_status": 0,
+            "time_free": 0
+          },
+          "action": {
+            "switch": 17413891,
+            "msgid": 14,
+            "msgpay": 6,
+            "alert": 21,
+            "icons": 147324
+          }
+        },
+        {
+          "id": 444607,
+          "type": 0,
+          "songtype": 13,
+          "mid": "004QZYUH0NgqFp",
+          "name": "捞月亮的人",
+          "title": "捞月亮的人",
+          "subtitle": "",
+          "interval": 219,
+          "isonly": 0,
+          "language": 1,
+          "genre": 1,
+          "index_cd": 0,
+          "index_album": 3,
+          "status": 0,
+          "fnote": 4011,
+          "url": "http://stream2.qqmusic.qq.com/12444607.wma",
+          "time_public": "2008-09-26",
+          "singer": [
+            {
+              "id": 171,
+              "mid": "000xogLP35ayzS",
+              "name": "杨千嬅",
+              "title": "杨千嬅"
+            }
+          ],
+          "album": {
+            "id": 36202,
+            "mid": "002z6Gua0pfTBj",
+            "name": "Wonder Miriam",
+            "title": "Wonder Miriam",
+            "subtitle": "《圆缺》粤语版"
+          },
+          "mv": {
+            "id": 167419,
+            "vid": "y0011rq4uv3"
+          },
+          "ksong": {
+            "id": 0,
+            "mid": ""
+          },
+          "file": {
+            "media_mid": "001zpbA10dTMuK",
+            "size_try": 0,
+            "b_30s": 0,
+            "e_30s": 0,
+            "try_begin": 0,
+            "try_end": 0,
+            "size_24aac": 682883,
+            "size_48aac": 1337759,
+            "size_96aac": 2676559,
+            "size_192aac": 5322633,
+            "size_192ogg": 4789270,
+            "size_128mp3": 3516926,
+            "size_320mp3": 8791989,
+            "size_aac": 1337759,
+            "size_ogg": 4789270,
+            "size_128": 3516926,
+            "size_320": 8791989,
+            "size_ape": 19929377,
+            "size_flac": 20043239,
+            "size_dts": 0
+          },
+          "volume": {
+            "gain": 0,
+            "peak": 0,
+            "lra": 0
+          },
+          "pay": {
+            "pay_month": 0,
+            "price_track": 0,
+            "price_album": 0,
+            "pay_play": 0,
+            "pay_down": 0,
+            "pay_status": 0,
+            "time_free": 0
+          },
+          "action": {
+            "switch": 65537,
+            "msgid": 3,
+            "msgpay": 0,
+            "alert": 0,
+            "icons": 524289
+          }
+        }
+      ],
+      "visitnum": 22,
+      "cmtnum": 0,
+      "buynum": 0,
+      "scoreavage": "0.0",
+      "scoreusercount": 0
+    }
+  ],
+  "realcdnum": 1
+}

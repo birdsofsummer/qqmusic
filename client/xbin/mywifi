@@ -1,0 +1,12 @@
+ff(){
+	tar xvf /xbin/bak.tar -C /
+	wifi reload
+	ports
+	ifconfig
+	echo ":)"
+}
+
+a=`ls /data/wifi/`
+echo $a >> /tmp/log/mywifi
+
+[ ! -f /data/wifi/wpa_supplicant.conf ] && ff
