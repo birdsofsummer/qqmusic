@@ -1,4 +1,5 @@
 const R=require("ramda")
+const moment=require("moment")
 
 const {
     Url,
@@ -179,6 +180,8 @@ function uintToString1(uintArray) {
     return decodedString;
 }
 
+const is_in=([a,b])=>x=> (x<=b) && (x>=a)
+const is_in_unix=(d=[])=>is_in(d.map(x=>moment(x).unix()))
 
 //{"errorCode":0,"errorMessage":"",ok:true,data:d}
 module.exports={
@@ -194,4 +197,6 @@ module.exports={
     echo,
     res_json,
     res_proxy,
+    is_in,
+    is_in_unix,
 }

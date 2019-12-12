@@ -1,15 +1,18 @@
 const R=require("ramda")
+
 const {
     to_json,
     to_qs,
     isArray,
     parse_jsonp,
+    is_in_unix,
 }=require("../fp")
 
 const {
     get_jsonp,
     get_blob2json,
     gets,
+    get,
 }=require("../ajax")
 
 const {
@@ -19,8 +22,16 @@ const {
 }=require("./config")
 
 
-const SONG=require("./jeff")
+const SONG_TIME=[ '1992-01-01' ,'2008-01-01'] //...
+const SONG=require("./jeff").filter(x=>is_in_unix(SONG_TIME)(x.pubtime))
 
+const PLAYLIST_ID=3361851000
+
+const get_playlist=async (disstid=PLAYLIST_ID)=>{
+    let r=await get(url,{...params,disstid:id})
+    return r
+    //return r.cdlist[0].songlist
+}
 
 
 const search_song=async (w="张信哲",page=16)=>{
@@ -129,6 +140,7 @@ module.exports={
     get_song2,
     get_song3,
     save_music,
+    get_playlist,
 }
 
 

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "moment": "^2.24.0",
     "ramda": "^0.26.1",
     "superagent": "^5.1.2"
   }
